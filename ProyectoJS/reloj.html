@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto con JavaScript</title>
+    <!--Mis Css <link rel="stylesheet" href="/ProyectoJS/css/blue.css" />
+    <link rel="stylesheet" href="/ProyectoJS/css/red.css" />-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link id="theme" rel="stylesheet" href="css/green.css" />
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--Moment js-->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+  </head>
+  <body>
+    <!--Botonera de Temas-->
+    <div id="changeTheme">
+      <div id="toGreen"></div>
+      <div id="toRed"></div>
+      <div id="toBlue"></div>
+    </div>
+    <!--Contenedor principal-->
+    <div class="container">
+      <!--Cabecera-->
+      <header>
+        <div class="logo">
+          <h1>Proyecto JS</h1>
+        </div>
+        <div class="clearfix"></div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reloj.html">Reloj</a></li>
+            <li><a href="about.html">Sobre mi</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--Contenido-->
+      <section class="contenido">
+        <div class="posts">
+          <!--Cargar Reloj-->
+          <div id="reloj"></div>
+        </div>
+        <aside class="sidebar">
+          <div id="about">
+            <h4><span>¿Quien soy?</span></h4>
+            <img src="img/caracol.jpg" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+              fuga, nulla porro beatae eveniet illum natus soluta obcaecati odio
+              facere saepe? Facere hic at ducimus alias cupiditate quo
+              consequatur cum.Maiores eligendi debitis, quae magni veritatis
+              iure sunt cum unde iusto
+            </p>
+          </div>
+
+          <div class="login" id="login">
+            <h4><span>Identificate</span></h4>
+            <form action="">
+              <label for="name">Nombre</label>
+              <input type="text" name="name" id="name" />
+
+              <label for="email">Correo</label>
+              <input type="text" name="email" id="email" />
+
+              <label for="password">Contraseña</label>
+              <input type="password" name="password" id="password" />
+
+              <input type="submit" value="Enviar" />
+            </form>
+          </div>
+        </aside>
+        <div class="clearfix"></div>
+      </section>
+    </div>
+    <!--Footer-->
+    <footer>
+      Master de JavaScript de Alberto Pimentel &copy;
+      <a href="#" class="subir">Ir arriba</a>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

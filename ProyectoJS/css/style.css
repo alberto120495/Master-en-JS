@@ -1,0 +1,252 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+.container {
+  /* border: 2px solid black;*/
+  width: 65%;
+  margin: 0px auto; /*Centrar*/
+  margin-top: 30px;
+  background: white;
+  padding: 25px;
+  box-shadow: 0px 0px 2px gray;
+}
+
+header {
+  /*border: 1px solid red;*/
+}
+
+.logo {
+  /*border: 1px solid green;*/
+  font-family: Verdana, Arial;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 4px; /*Separo de letras*/
+  line-height: 75px; /*/Altura de la linea*/
+  color: white;
+  text-align: center;
+  width: 385px;
+  height: 80px;
+  margin-bottom: 20px;
+  float: left;
+}
+.navbar {
+  /*border: 1px solid pink;*/
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.navbar ul {
+  line-height: 46px;
+}
+
+.navbar ul li {
+  height: 46px;
+  display: inline-block;
+  transition: all 300ms; /*Para el hover*/
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.slider {
+  /*border: 1px solid blue;*/
+}
+
+.bx-wrapper,
+.bx-viewport {
+  height: 250px !important;
+}
+
+.contenido {
+  /* border: 1px solid green;*/
+}
+
+.posts {
+  /* border: 1px solid red;*/
+  width: 60%;
+  float: left;
+  font-family: Arial, Helvetica;
+}
+
+.post {
+  padding: 7px;
+}
+.post h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+.date {
+  color: gray;
+  display: block;
+  margin-top: 5px;
+}
+
+.post p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.boton-more {
+  font-size: 14px;
+  color: white;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+  width: 70px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar {
+  /*border: 1px solid orange;*/
+  font-family: Arial, Helvetica, sans-serif;
+  width: 36%;
+  float: right;
+}
+
+.sidebar h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 10px;
+  color: #333;
+  background: url("/ProyectoJS/img/lines.png") repeat-x;
+}
+.sidebar h4 span {
+  background: white;
+  padding: px;
+}
+
+.sidebar img {
+  width: 100%;
+}
+
+.sidebar p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form select {
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  width: 95%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+form input[type="submit"] {
+  background: #eee;
+  padding: 10px;
+  border: 1px solid gray;
+  color: #333;
+  cursor: pointer;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  width: 65%;
+  height: 47px;
+  background: rgba(51, 51, 51, 0.7);
+  margin: 0px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  line-height: 47px;
+}
+
+#changeTheme {
+  position: fixed;
+  top: 40%;
+  background: rgba(51, 51, 51, 0.5);
+  width: 50px;
+  height: 100px;
+}
+
+#toGreen,
+#toRed,
+#toBlue {
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#toGreen {
+  background: #235e3d;
+}
+#toRed {
+  background: #ca3413;
+}
+#toBlue {
+  background: #1f87c4;
+}
+
+.subir {
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: right;
+}
+
+#acordeon {
+  margin-top: 20px;
+}
+
+#reloj {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  border: 1px solid #333;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact {
+  width: 60%;
+  margin-top: 15px;
+}
+
+.contact label {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-top: 15px;
+}
+
+.help-block {
+  float: right;
+  margin-top: 10px;
+}

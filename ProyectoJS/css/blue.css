@@ -1,0 +1,20 @@
+:root {
+  --main-bg-color: #1f87c4;
+}
+
+body {
+  background: url("/ProyectoJS/img/cielo.jpg"); /*Imagen de Fondo*/
+  background-attachment: fixed; /*La imagen se queda fija*/
+}
+
+.logo {
+  background: var(--main-bg-color);
+}
+
+.navbar ul li:hover {
+  background: var(--main-bg-color);
+}
+
+.boton-more {
+  background: var(--main-bg-color);
+}

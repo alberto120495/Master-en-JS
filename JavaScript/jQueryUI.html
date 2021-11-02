@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/JavaScript/jquery/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="/jquery-ui-1.12.1/jquery-ui.min.css" />
+    <link
+      rel="stylesheet"
+      href="/jquery-ui-1.12.1/jquery-ui.structure.min.css"
+    />
+    <link rel="stylesheet" href="/jquery-ui-1.12.1/jquery-ui.theme.min.css" />
+
+    <script src="/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <style>
+      .elemento {
+        width: 300px;
+        height: 200px;
+        border: 2px solid black;
+        background: lightblue;
+        margin: 20px;
+        float: left; /*Para acomodarlas una tras otra*/
+        /*position: absolute;*/
+      }
+      .listaSeleccionable li {
+        width: 80%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        list-style: none;
+        cursor: pointer;
+      }
+
+      ul .ui-selecting {
+        background: green;
+      }
+      ul .ui-selected {
+        background: pink;
+      }
+
+      #elementoMovido {
+        border: 1px solid red;
+        width: 100px;
+        height: 100px;
+      }
+      #area {
+        border: 1px solid green;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+      }
+      .cajaEfectos {
+        width: 300px;
+        height: 200px;
+        border: 2px solid black;
+        background: pink;
+        margin: 20px;
+        float: none;
+        display: none;
+      }
+    </style>
+
+    <title>UI</title>
+  </head>
+  <body>
+    <h1>jQuery UI</h1>
+
+    <hr />
+    <h3>Tooltip</h3>
+    <a
+      href="#"
+      id="misDatos"
+      title="Acceder a la seccion de mis datos de esta web"
+      >Mis datos</a
+    >
+    <a href="#" id="misDatos" title="Identificarse">Identificarse</a>
+    <a href="#" id="misDatos" title="Ver todos mis amigos">Amigos</a>
+    <hr />
+
+    <hr />
+    <h3>Cuadros de dialogo</h3>
+
+    <button id="mostrarDialogo">Muestra dialogo</button>
+    <div id="popup" title="Estas seguro?">
+      <p>
+        Si continuas en el curso aprendras mucho de JS
+      </p>
+    </div>
+    <hr />
+
+    <hr />
+    <h3>Calendario</h3>
+    <input type="text" id="calendario" />
+    <hr />
+
+    <hr />
+    <h3>Pestañas- tabs</h3>
+    <div id="pestanas">
+      <ul>
+        <li><a href="#tabs-1">Pestaña 1</a></li>
+        <li><a href="#tabs-2">Pestaña 2</a></li>
+        <li><a href="#tabs-3">Pestaña 3</a></li>
+      </ul>
+      <div id="tabs-1">
+        Hola soy la primer pestaña
+      </div>
+      <div id="tabs-2">
+        Hola soy la segunda pestaña
+      </div>
+      <div id="tabs-3">
+        Hola soy la tercer pestaña
+      </div>
+    </div>
+    <hr />
+
+    <button id="mostrar">Mostrar</button>
+    <div class="cajaEfectos"></div>
+    <div id="elementoMovido"></div>
+    <div id="area"></div>
+    <ul class="listaSeleccionable">
+      <li>GTA 5</li>
+      <li>Nedd for spead</li>
+      <li>Crash Bandicoot</li>
+      <li>Super Mario</li>
+      <li>Galaxian</li>
+    </ul>
+    <div class="elemento">Hola soy un elemento de la web 1</div>
+    <div class="elemento">Hola soy un elemento de la web 2</div>
+    <div class="elemento">Hola soy un elemento de la web 3</div>
+    <script src="/jqueryUI.js"></script>
+  </body>
+</html>
